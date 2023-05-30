@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 150px;
+}
+.menu li {
+  display: inline-block;
+  margin-left: 100px;
+}
+.menu li a {
+  text-decoration: none;
+  color: #505050;
+  font-weight: 400;
+}
+.menu li a:hover {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+}
+.home {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+  color: #fff;
+}
+.text-home {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.subtitle {
+  font-size: 24px;
+}
+.about_us {
+  background-color: #fff;
+  padding: 80px 0;
+}
+.column-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.parttitle {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.parttitle-cyty{
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.text-to-parttitle {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-right: 200px;
+}
+.au {
+  width: 400px;
+  height: auto;
+}
+.abu {
+  max-width: 400px;
+}
+.city {
+  background-color: #bdbdbd;
+  padding: 80px 0;
+}
+.city-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.city-card {
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  margin-right: 25px;
+}
+.city-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.city-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.city-description {
+  font-size: 15px;
+  font-weight: 400;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+

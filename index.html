@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/Slider Syncing.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<title>Travel</title>
+<script src="script.js"></script>
+</head>
+<body>
+  <div class="background">
+    <header class="header">
+        <img class="logo" src="logo.png" alt="">
+      <nav>
+        <ul class="menu">
+          <li><a href="#home" onclick="scrollToSection(event, 'home')">HOME</a></li>
+          <li><a href="#about_us" onclick="scrollToSection(event, 'about_us')">ABOUT US</a></li>
+          <li><a href="#city" onclick="scrollToSection(event, 'city')">CITY</a></li>
+          <li><a href="#footer"onclick="scrollToSection(event, 'footer')">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home" class="home">
+      <div class="text-home">
+        <h1 class="title">Discover new places to travel</h1>
+        <h3 class="subtitle">Investing in travel is investing in yourself</h3>
+      </div>
+    </section>
+  </div>
+  <div class="block">
+    <section id="about_us" class="about_us">
+      <div class="container">
+        <div class="column-container">
+          <div>
+            <h3 class="parttitle">ABOUT US</h3>
+            <p class="text-to-parttitle">This site will help you discover a new world of travel opportunities, discover new cultures of other European countries. Thanks to this site, you will be able to decide on the city you want to visit. According to statistics, our site is most often used by couples, as well as people aged 20 to 50 years visit our site to choose a city to relax with their family.</p>
+            </div>
+          <div class="abu">
+            <img class="au" src="au.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="block2">
+    <div class="city.">
+    <section id="city" class="city">
+      <div class="container">
+        <h3 class="parttitle-cyty">CITY</h3>
+        <div class="city-container">
+          <div class="city-card">
+            <img src="WARSAW.jpg" alt="City 1">
+            <h4 class="city-name">Warsaw</h4>
+            <p class="city-description">The most dynamic city in Poland, which is famous for its museums, palaces and rich in cultural life. Historic buildings are harmoniously combined with modern architecture, and skyscrapers rise above the tiled roofs of the restored Old Town. </p>
+          </div>
+          <div class="city-card">
+            <img src="MILAN.jpg" alt="City 2">
+            <h4 class="city-name">Milan</h4>
+            <p class="city-description">Milan enjoys fame as one of the world's centers of the fashion and design industry. Milan is also home to one of the world's most famous opera houses, La Scala. More than 2 million tourists visit Milan every year.</p>
+          </div>
+          <div class="city-card">
+            <img src="MUNICH.jpg" alt="City 3">
+            <h4 class="city-name">Munich</h4>
+            <p class="city-description">Here is the concern of the famous automaker. The city has a BMW Museum, which can be called a paradise for boys from 5 to 50 years old. The museum is built in the shape of a gas tank cap. Here you can see the very first models of BMW cars, and the latest innovations.</p>
+          </div>
+          <div class="city-card">
+            <img src="ROME.jpg" alt="City 4">
+            <h4 class="city-name">Rome</h4>
+            <p class="city-description">The famous Forum, the legendary Colosseum, the ancient Pantheon and many other grandiose ruins. Rome is also cozy street cafes and trattorias, famous squares and fountains, palaces and gardens.</p>
+          </div>
+          <div class="city-card">
+            <img src="PARIS.jpg" alt="City 4">
+            <h4 class="city-name">Paris</h4>
+            <p class="city-description">The capital of France is famous for its majestic architecture, legendary fashion houses, perfumes and unique French cuisine. And the history of Paris began in the III century BC, with a small settlement on the Île de la Cité on the Seine River.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+  </div>
+  <footer id="footer" class="footer">
+    <div class="container">
+      <p>Travel with Takata</p>
+    </div>
+  </footer>
+  
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script>
+      $(document).ready(function(){
+    $('.city-container').slick({
+      setting-name: setting-value
+    });
+  });
+
+  </script>
+</body>
+</html>
